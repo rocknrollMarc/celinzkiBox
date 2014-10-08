@@ -1,6 +1,6 @@
-@import "bootstrap-sprockets";
-@import "bootstrap";
-
+// Place all the styles related to the Photos controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
 #photos-list {
   padding: 0;
   margin: 0;
@@ -20,11 +20,11 @@
       overflow: hidden;
     }
   }
-}
 #errors_full_text {
   padding: 10px;
   margin-bottom: 10px;
   h2 {
     font-size: 18px;
   }
+}
 }

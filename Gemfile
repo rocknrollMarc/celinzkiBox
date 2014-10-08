@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.6'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+
+gem 'better_errors'
+gem 'binding_of_caller'
+ gem 'meta_request'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -27,7 +31,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'dragonfly'
-gem 'dragonfly-s3_data_store'
+gem 'dragonfly-dropbox_data_store'
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
